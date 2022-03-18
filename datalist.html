@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get"> <!-- is used to collect user input. the user input is most often sent to a server for processing -->
+  <label for="browser">Choose your browser from the list:</label> 
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers"> <!--specifies a list of pre defined options for an <input> element like (drop box)  --> 
+    <option value="Edge"> <!-- list of data items -->
+    <option value="Firefox"> <!-- list of data items -->
+    <option value="Chrome"> <!-- list of data items -->
+    <option value="Opera"> <!-- list of data items -->
+    <option value="Safari"> <!-- list of data items -->
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+</body>
+</html>
