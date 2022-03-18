@@ -1,1 +1,0 @@
-# for_web_tech
